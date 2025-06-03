@@ -28,7 +28,7 @@
 
 .presentacion-fila {
   display: flex;
-  width: 150px;
+  width: 120px;
   height: 100px;
   justify-content: space-between;
   align-items: center;
