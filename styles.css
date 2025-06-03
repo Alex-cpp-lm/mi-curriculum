@@ -7,7 +7,7 @@
 
 .presentacion-cover img {
   width: 100%;
-  height: auto;
+  height: 1000;
   object-fit: cover;
   display: block;
 }
