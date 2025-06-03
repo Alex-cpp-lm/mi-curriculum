@@ -27,8 +27,8 @@
 
 .presentacion-fila {
   display: flex;
-  width: 80%;
-  height: 27%;
+  width: 100%;
+  height: 30%;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255,255,255,0.2);
