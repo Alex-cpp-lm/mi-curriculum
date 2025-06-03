@@ -7,7 +7,7 @@
 .presentacion-cover img {
   width: 100%;
   height: auto;
-  max-height: 350px;
+  max-height: 100px;
   object-fit: cover;
   display: block;
 }
@@ -16,13 +16,13 @@
   position: absolute;
   top: 0;
   width: 100%;
-  padding: 40px;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(6px);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .presentacion-fila {
@@ -32,7 +32,7 @@
   background-color: rgba(255,255,255,0.2);
   padding: 15px 20px;
   border-radius: 12px;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -45,18 +45,9 @@
 }
 
 .presentacion-red img, .presentacion-ranking img {
-  width: 30px;
+  width: 10px;
   height: 30px;
   border-radius: 50%;
-}
-
-.presentacion-foto img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 3px solid var(--primary-color);
-  box-shadow: 0 4px 8px var(--shadow-color);
-  object-fit: cover;
 }
 
 .boton-imprimir {
