@@ -1,3 +1,88 @@
+.presentacion-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.presentacion-cover img {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.presentacion-tabla {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.presentacion-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255,255,255,0.2);
+  padding: 15px 20px;
+  border-radius: 12px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.presentacion-red, .presentacion-ranking {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.presentacion-red img, .presentacion-ranking img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.presentacion-foto img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 4px 8px var(--shadow-color);
+  object-fit: cover;
+}
+
+.boton-imprimir {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton-imprimir:hover {
+  background-color: var(--primary-color-dark);
+}
+
+@media screen and (max-width: 768px) {
+  .presentacion-fila {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
 .profile-banner {
   position: relative;
   width: 100%;
